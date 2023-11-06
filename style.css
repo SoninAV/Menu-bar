@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(32, 7, 99);
+    font-size: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 100px 100px;
+}
+
+body * {
+    display: inline-block;
+    flex: 0 0 auto;
+}
+
+.group {
+    margin-right: 50px;
+}
+
+.colomn {
+    width: 210px;
+}
+
+.big-square {
+    width: 200px;
+    height: 210px;
+    background-color: seagreen;
+    margin: 0 10px 10px 0;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 0 10px 10px 0;
+}
+
+.small-square {
+    width: 95px;
+    height: 100px;
+    background-color: firebrick;
+    margin: 0 10px 10px 0;
+}
